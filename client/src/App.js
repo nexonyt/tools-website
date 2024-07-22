@@ -2,7 +2,7 @@
 import "./App.css";
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import About from "./pages/About"; // Importowanie komponentu About z folderu pages
+import UUID from "./pages/UUID"; // Importowanie komponentu About z folderu pages
 
 const Home = () => <h2>Homes</h2>;
 const Users = () => <h2>Userssss</h2>;
@@ -21,7 +21,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<UUID />} />
         <Route path="/users" element={<Users />} />
         {/* <Route path="/password-generator" element={<PasswordGenerator />} /> */}
       </Routes>
